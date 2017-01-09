@@ -1,0 +1,70 @@
+@font-face{
+	font-family: Lemon;
+	src: url('LemonMilk.otf');
+}
+body {
+	background: white;
+}
+
+#back{
+	width: 100%;
+	margin: 0px;
+	z-index: 0;
+	position: absolute;
+	padding: 0px;
+}
+#logo{
+	position: relative;
+	margin-top: 260px;
+	margin-left: 45%;
+	margin-right: 50%;
+	width: 180px;
+}
+h3{
+	font-family: Lemon;
+	margin-top: 100px;
+	padding: 8px;
+	color: white;
+}
+h3:hover{ 
+	color: pink;
+}
+.mayus{
+	font-size: 90px;
+	display: inline-block;
+}
+.Home{
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+	margin-left: 8%;
+}
+.Catalog{
+	display: inline-block;
+	margin-left: 33%;
+	position: fixed;
+	z-index: 1;
+}
+
+.About{
+	display: inline-block;
+	margin-left: 58%;
+	position: fixed;
+	z-index: 1;
+}
+
+.Contact{
+	display: inline-block;
+	position: fixed;
+	margin-left: 83%;
+	z-index: 1;
+}
+.bar{
+	background-color: white;
+}
+.dog{
+	width: 30px;
+	float: both;
+	display: block;
+	margin-top: 70px;
+}
